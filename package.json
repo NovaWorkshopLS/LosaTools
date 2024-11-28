@@ -1,0 +1,25 @@
+{
+  "name": "losauixmlparser",
+  "version": "1.0.5",
+  "main": "index.js",
+  "scripts": {
+    "all": "ts-node src/index.ts",
+    "dds": "ts-node src/dds-parser.ts",
+    "parse-ui": "ts-node src/uixmlparse.ts",
+    "dwimage": "ts-node src/image-downloader.ts"
+  },
+  "keywords": [],
+  "author": "Bangbokir",
+  "license": "MIT",
+  "description": "Parsing and Extracting Images from XML and DDS Files",
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0",
+    "sharp": "^0.33.5"
+  }
+}
